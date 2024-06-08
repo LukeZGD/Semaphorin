@@ -10,11 +10,7 @@
 
 # IF YOUR DEVICE SUPPORTS [LEGACY-IOS-KIT](https://github.com/LukeZGD/Legacy-iOS-Kit), YOU SHOULD REALLY USE THAT OVER THIS.
 
-# SEMAPHORIN IS NOW DISCONTINUED, PLEASE ASK [Mineek](https://github.com/mineek) FOR WHAT THEY SUGGEST YOU TO USE.
-
 # IF YOU ARE IN THE SEMAPHORIN DISCORD SERVER, PLEASE LEAVE. IT IS NON OFFICIAL AS OF NOW.
-
-# YOU CAN USE [https://github.com/LukeZGD/Semaphorin](https://github.com/LukeZGD/Semaphorin) FOR FUTURE UPDATES.
 
 # Chart of compatibility
 
