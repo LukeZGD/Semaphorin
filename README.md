@@ -86,6 +86,9 @@ We back up the `activation_records` from your main OS prior to downgrading your 
 
 ## Troubleshooting
 
+### ***Discord server***
+***For general support and troubleshooting for issues not outlined below, feel free to join the [Semaphorin Discord server](https://discord.gg/7NM6vdFksU)!***
+
    ### Deep sleep, device won't turn on after locking it, have to reboot.
    The issue that causes deep sleep is unfortunately **unfixable**. There is, however, a workaround to this:
 
