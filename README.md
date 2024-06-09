@@ -14,13 +14,15 @@
 
 | iOS         | App Store | Cydia       | Tweaks    | Respring| Cellular | Sideloadly | iTunes     |
 |-------------|-----------|-------------|-----------|---------|----------|------------|------------|
-| 7.0.6       | &#9745;   | &#9745;     | &#9745;   | &#9745; | &#9745;  | &#9745;    | &#9745;    | 
+| 7.0.6*      | &#9745;   | &#9745;     | &#9745;   | &#9745; | &#9745;  | &#9745;    | &#9745;    | 
 | 7.1.2       | &#9745;   | &#9745;     | &#9745;   | &#9745; | &#9745;  | &#9745;    | &#9745;    |
 | 8.2         | &#9745;   | &#9745;     | &#9745;   | &#9745; | &#9744;  | &#9745;    | &#9745;    |
 | 9.3         | &#9745;   | &#9745;     | &#9745;   | &#9745; | &#9745;  | &#9744;    | &#9744;    |
 | 10.3.3      | &#9745;   | &#9745;     | &#9745;   | &#9745; | &#9745;  | &#9744;    | &#9744;    |
 | 11.3        | &#9745;   | &#9745;     | &#9745;   | &#9745; | &#9745;  | &#9744;    | &#9744;    |
 | 12.1        | &#9745;   | &#9745;     | &#9745;   | &#9745; | &#9745;  | &#9744;    | &#9744;    |
+
+*downgrade tested on Apple silicon Mac
 
 ## How do I use this?
 
@@ -64,7 +66,7 @@ It should just boot to your requested iOS version normally.
 
 macOS Catalina or later, or Linux. The script only officially supports these versions.
 
-Intel Mac. Hackintoshes with AMD CPUs will **NOT** work with this.
+Intel Mac (some iOS Versions can be downgraded to on Apple silicon). Hackintoshes with AMD CPUs will **NOT** work with this.
 
 Stable internet connection. Please don't try using this with dial up...
 
