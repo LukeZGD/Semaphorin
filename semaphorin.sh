@@ -1952,7 +1952,7 @@ if [[ "$boot" == 1 ]]; then
         cd "$dir"/$deviceid/$cpid/ramdisk/8.4.1
         _boot_ramdisk
         cd "$dir"/
-        read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the smily face appears and doesn't move). " r1
+        read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the black and white logo appears and doesn't move). " r1
         echo "[*] Waiting 6 seconds before continuing.."
         sleep 6
         sudo killall -STOP -c usbd
@@ -2286,7 +2286,7 @@ if [[ "$ramdisk" == 1 || "$restore" == 1 || "$dump_blobs" == 1 || "$force_activa
         fi
     fi
     cd "$dir"/
-    read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the smily face appears and doesn't move). " r1
+    read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the black and white logo appears and doesn't move). " r1
     echo "[*] Waiting 6 seconds before continuing.."
     sleep 6
     sudo killall -STOP -c usbd
@@ -2519,7 +2519,7 @@ if [[ "$ramdisk" == 1 || "$restore" == 1 || "$dump_blobs" == 1 || "$force_activa
                     pongo=1
                 fi
                 cd "$dir"/
-                read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the smily face appears and doesn't move). " r1
+                read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the black and white logo appears and doesn't move). " r1
                 echo "[*] Waiting 6 seconds before continuing.."
                 sleep 6
                 sudo killall -STOP -c usbd
@@ -2816,7 +2816,7 @@ if [[ "$ramdisk" == 1 || "$restore" == 1 || "$dump_blobs" == 1 || "$force_activa
                     fi
                     _boot_ramdisk $deviceid $replace $r
                     cd "$dir"/
-                    read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the smily face appears and doesn't move). " r1
+                    read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the black and white logo appears and doesn't move). " r1
                     echo "[*] Waiting 6 seconds before continuing.."
                     sleep 6
                     sudo killall -STOP -c usbd
@@ -2920,7 +2920,7 @@ if [[ "$ramdisk" == 1 || "$restore" == 1 || "$dump_blobs" == 1 || "$force_activa
                     fi
                     _boot_ramdisk $deviceid $replace $r
                     cd "$dir"/
-                    read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the smily face appears and doesn't move). " r1
+                    read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the black and white logo appears and doesn't move). " r1
                     echo "[*] Waiting 6 seconds before continuing.."
                     sleep 6
                     sudo killall -STOP -c usbd
@@ -3016,7 +3016,7 @@ if [[ "$ramdisk" == 1 || "$restore" == 1 || "$dump_blobs" == 1 || "$force_activa
                 fi
                 _boot_ramdisk $deviceid $replace $r
                 cd "$dir"/
-                read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the smily face appears and doesn't move). " r1
+                read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the black and white logo appears and doesn't move). " r1
                 echo "[*] Waiting 6 seconds before continuing.."
                 sleep 6
                 sudo killall -STOP -c usbd
@@ -3114,7 +3114,7 @@ if [[ "$ramdisk" == 1 || "$restore" == 1 || "$dump_blobs" == 1 || "$force_activa
             fi
             _boot_ramdisk $deviceid $replace $r
             cd "$dir"/
-            read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the smily face appears and doesn't move). " r1
+            read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the black and white logo appears and doesn't move). " r1
             echo "[*] Waiting 6 seconds before continuing.."
             sleep 6
             sudo killall -STOP -c usbd
@@ -3657,7 +3657,7 @@ if [[ "$ramdisk" == 1 || "$restore" == 1 || "$dump_blobs" == 1 || "$force_activa
                     fi
                     _boot_ramdisk $deviceid $replace $r
                     cd "$dir"/
-                    read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the smily face appears and doesn't move). " r1
+                    read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the black and white logo appears and doesn't move). " r1
                     echo "[*] Waiting 6 seconds before continuing.."
                     sleep 6
                     sudo killall -STOP -c usbd
@@ -4106,7 +4106,7 @@ if [[ "$ramdisk" == 1 || "$restore" == 1 || "$dump_blobs" == 1 || "$force_activa
                 fi
                 _boot_ramdisk $deviceid $replace $r
                 cd "$dir"/
-                read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the smily face appears and doesn't move). " r1
+                read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the black and white logo appears and doesn't move). " r1
                 echo "[*] Waiting 6 seconds before continuing.."
                 sleep 6
                 sudo killall -STOP -c usbd
@@ -4266,7 +4266,7 @@ if [[ "$ramdisk" == 1 || "$restore" == 1 || "$dump_blobs" == 1 || "$force_activa
                     fi
                     _boot_ramdisk $deviceid $replace $r
                     cd "$dir"/
-                    read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the smily face appears and doesn't move). " r1
+                    read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the black and white logo appears and doesn't move). " r1
                     echo "[*] Waiting 6 seconds before continuing.."
                     sleep 6
                     sudo killall -STOP -c usbd
@@ -4440,7 +4440,7 @@ if [[ "$ramdisk" == 1 || "$restore" == 1 || "$dump_blobs" == 1 || "$force_activa
                 fi
                 _boot_ramdisk $deviceid $replace $r
                 cd "$dir"/
-                read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the smily face appears and doesn't move). " r1
+                read -p "[*] Press Enter once your device has fully booted into the SSH ramdisk (once the black and white logo appears and doesn't move). " r1
                 echo "[*] Waiting 6 seconds before continuing.."
                 sleep 6
                 sudo killall -STOP -c usbd
